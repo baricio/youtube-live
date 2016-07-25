@@ -1,0 +1,6 @@
+{
+    "name": "fabricio/live",
+    "require": {
+        "google/apiclient": "2.0"
+    }
+}
