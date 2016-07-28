@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ed71f5852a54cb142ab582396781cfa3",
+    "hash": "4d7b2bbf8fcb0b56856735f44070c503",
     "content-hash": "fc929920c88425e2e79d8c56f651094d",
     "packages": [
         {
@@ -111,17 +111,16 @@
         },
         {
             "name": "google/apiclient-services",
-            "version": "v0.4",
-            "target-dir": "Google/Service",
+            "version": "v0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/google/google-api-php-client-services.git",
-                "reference": "a7f180941c60b96dcd602b9c22ce7b535387a8c2"
+                "reference": "68290c3645498cf911d0d2552645bcee5c5f23f2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/google/google-api-php-client-services/zipball/a7f180941c60b96dcd602b9c22ce7b535387a8c2",
-                "reference": "a7f180941c60b96dcd602b9c22ce7b535387a8c2",
+                "url": "https://api.github.com/repos/google/google-api-php-client-services/zipball/68290c3645498cf911d0d2552645bcee5c5f23f2",
+                "reference": "68290c3645498cf911d0d2552645bcee5c5f23f2",
                 "shasum": ""
             },
             "require": {
@@ -130,7 +129,7 @@
             "type": "library",
             "autoload": {
                 "psr-0": {
-                    "Google_Service_": ""
+                    "Google_Service_": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -142,7 +141,7 @@
             "keywords": [
                 "google"
             ],
-            "time": "2016-07-14 00:19:51"
+            "time": "2016-07-27 20:26:55"
         },
         {
             "name": "google/auth",
